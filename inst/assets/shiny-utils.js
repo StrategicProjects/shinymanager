@@ -22,3 +22,5 @@ Shiny.addCustomMessageHandler('unbindDT', function(data) {
 Shiny.addCustomMessageHandler('rmInputSM', function(data) {
   Shiny.onInputChange(data.id, 'null')
 });
+
+
